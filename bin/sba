@@ -1,0 +1,10 @@
+#!/usr/bin/env bash
+set -Eeuo pipefail
+SCRIPT_DIR=$( cd -- "$( dirname -- "${BASH_SOURCE[0]}" )" &> /dev/null && pwd )
+PROJECT_DIR=$(cd $SCRIPT_DIR/..; pwd)
+DC_FILT=$PROJECT_DIR/docker-compose.yml
+DC_CONTEXT=$PROJECT_DIR
+
+function start(){
+  docekr compose up -f 
+}

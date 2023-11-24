@@ -1,0 +1,5 @@
+support-bundles/
+!support-bundles/.gitkeep
+*.tar.gz
+*.tar
+*.tgz

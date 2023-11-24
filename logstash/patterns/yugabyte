@@ -1,0 +1,3 @@
+YB_PROC (?:yb-tserver|postgresql|yb-master|yb-controller-server)
+YB_LOGLEVEL (?:[IWEF]{1})
+YB_CODE (?:[0-9a-zA-Z\.\-_]+)
